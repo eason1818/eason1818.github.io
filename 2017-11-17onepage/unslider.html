@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/unslider.css">
+    <link rel="stylesheet" href="/css/unslider-dots.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .logo {
+            width: 100px;
+            height: 100px;
+            background-image: url(https://images.vexels.com/media/users/3/143926/isolated/lists/852998f9559cb4ac87d8bd48dc507ccf-white-ghost-silhouette-9.png);
+            background-size: cover;
+        }
+
+        .bg_img {
+            width: 100%;
+            height: 115vh;
+            background-size: cover;
+        }
+
+        .img1 {
+            background-image: url(/img/11.jpg);
+        }
+
+        .img2 {
+            background-image: url(/img/22.jpg);
+        }
+
+        .img3 {
+            background-image: url(/img/33.jpg);
+        }
+
+        .navbar {
+            width: 100%;
+            height: 60px;
+        }
+
+        .link {
+            width: 20%;
+            height: 60px;
+            border: solid 1px black;
+            float: left;
+            box-sizing: border-box;
+            text-align: center;
+            padding: 15px;
+        }
+
+        .prev {
+            position: absolute;
+            top: 75vh;
+            color: white;
+
+        }
+
+        .next {
+            position: absolute;
+            top: 75vh;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="logo"></div>
+    <div class="navbar">
+        <div class="link link1">
+            <a href="">link1</a>
+        </div>
+        <div class="link link2">
+            <a href="">link2</a>
+        </div>
+        <div class="link link3">
+            <a href="">link3</a>
+        </div>
+        <div class="link link4">
+            <a href="">link4</a>
+        </div>
+        <div class="link link5">
+            <a href="">link5</a>
+        </div>
+    </div>
+    <div class="my-slider">
+        <ul>
+            <li>
+                <div class="bg_img img1"></div>
+            </li>
+            <li>
+                <div class="bg_img img2"></div>
+            </li>
+            <li>
+                <div class="bg_img img3"></div>
+            </li>
+        </ul>
+    </div>
+
+    <script src="/js/jquery-3.2.1.min.js"></script>
+    <script src="/js/unslider-min.js"></script>
+    <script>
+        jQuery(document).ready(function ($) {
+            $('.my-slider').unslider({
+                arrows: {
+                    //  Unslider default behaviour
+                    prev: '<a class="unslider-arrow prev"><i class="fa fa-snapchat-ghost fa-3x" aria-hidden="true"></i></a>',
+                    next: '<a class="unslider-arrow next"><i class="fa fa-snapchat-ghost fa-3x" aria-hidden="true"></i></a>',
+                }
+            });
+        });
+
+    </script>
+
+
+</body>
+
+</html>

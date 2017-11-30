@@ -73,15 +73,15 @@ p {
 }
 
 .img1 {
-    background-image: url(/img/水果1.jpg);
+    background-image: url('img/水果1.jpg');
 }
 
 .img2 {
-    background-image: url(/img/茶園1.jpg);
+    background-image: url('img/茶園1.jpg');
 }
 
 .img3 {
-    background-image: url(/img/乳牛1.jpg);
+    background-image: url('img/乳牛1.jpg');
 }
 
 .link {
@@ -435,9 +435,11 @@ p {
     float: right;
     margin-top: 8.665px;
 }
-.qr img{
+
+.qr img {
     height: 100px;
 }
+
 .sgs1 {
     box-shadow: 0px 0px 0px 1px rgb(216, 207, 207);
 }
@@ -627,10 +629,7 @@ p {
     .info {
         width: calc(100% - 103px);
     }
-    .qr {
-       
-    
-    }
+    .qr {}
     .qr img {
         height: 47px;
     }

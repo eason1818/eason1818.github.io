@@ -73,15 +73,15 @@ p {
 }
 
 .img1 {
-    background-image: url('img/水果1.jpg');
+    background-image: url('../img/水果1.jpg');
 }
 
 .img2 {
-    background-image: url('img/茶園1.jpg');
+    background-image: url('../img/茶園1.jpg');
 }
 
 .img3 {
-    background-image: url('img/乳牛1.jpg');
+    background-image: url('../img/乳牛1.jpg');
 }
 
 .link {
@@ -129,7 +129,7 @@ p {
 }
 
 .Featuredproducts {
-    background-image: url("/img/背景圖2-01.png");
+    background-image: url("../img/背景圖2-01.png");
     width: 100%;
     position: relative;
     padding-top: 37px;
@@ -204,7 +204,7 @@ p {
 }
 
 .allcommodity {
-    background-image: url("/img/背景圖3.jpg");
+    background-image: url("../img/背景圖3.jpg");
     width: 100%;
     position: relative;
     padding-top: 37px;
@@ -629,7 +629,6 @@ p {
     .info {
         width: calc(100% - 103px);
     }
-    .qr {}
     .qr img {
         height: 47px;
     }
